@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1062px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 40px;
+}
+
+h1 {
+    position: absolute;
+    padding-top: 13px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: white;
+}
+
+nav {
+    position: absolute;
+    right: 0px;
+    padding-top: 13px;
+    font-size: 15px;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 42px;
+    color: white;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+span.teal-text {
+    color: #158055;
+}
+section.gradient {
+    width: 100%;
+    height: 438px;
+    padding-top: 66px;
+    background: rgba(252,252,252,1);
+    background: -moz-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(209,209,209,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(252,252,252,1)), color-stop(100%, rgba(209,209,209,1)));
+    background: -webkit-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(209,209,209,1) 100%);
+    background: -o-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(209,209,209,1) 100%);
+    background: -ms-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(209,209,209,1) 100%);
+    background: linear-gradient(to bottom, rgba(252,252,252,1) 0%, rgba(209,209,209,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#d1d1d1', GradientType=0 );
+}
+
+.arrow {
+    font-size: 100px;
+    padding-top: 110px;
+    width: 10%;
+    color: #158055;
+}
+
+.left {
+    float: left;
+    text-align: left;
+}
+.right {
+    float: right;
+    text-align: right;
+}
+
+.black-chair {
+    height: 430px;
+    width: 28%;
+    background-image: url(../images/black_chair.png);
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+
+.next-to-chair {
+    height: 350px;
+    width: 45%;
+    float: left;
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+input {
+    color: white;
+    width: 50%;
+    height: 18%;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #158055;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
